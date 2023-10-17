@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.sartor-logo {
+    height: 40px !important;
+}
+
+.sartor-logo2 {
+    height: 70px !important;
+}
+
+.sartor-bg-blue {
+    background-color: #182659;
+}
+
+.sartor-link:hover {
+    color: #00a859 !important;
+}
+
+.sartor-txt-blue {
+    color: #182659 !important;
+}
+
+.sartor-bg-green {
+    background-color: #00a859;
+}
+
+.sartor-txt-green {
+    color: #00a859 !important;
+}
+
+.sartor-bg-transperent {
+    background-color: transparent;
+}
+
+.sartor-txt-white {
+    color: #ffffff !important;
+}
+
+.sartor-txt-ash {
+    color: #949393 !important;
+}
+
+.sartor-consult {
+    border: 4px solid #00a859;
+    transition: 0.4s ease-in-out;
+
+}
+
+.sartor-consult:hover {
+    border: 4px solid #00a859;
+    background-color: #00a859;
+    color: #ffffff !important;
+}
+
+.sartor-talk {
+    border: 4px solid #00a859;
+    transition: 0.4s ease-in-out;
+    color: #00a859 !important;
+}
+
+.sartor-talk:hover {
+    border: 4px solid #00a859;
+    background-color: #00a859;
+    color: #ffffff !important;
+}
+
+video, .sartor-img2 {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    filter: brightness(50%);
+}
+
+.sartor-vid {
+    position: relative;
+}
+
+.sartor-overlay {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    z-index: 1;
+    width: 50%;
+}
+
+.sartor-head {
+    font-size: 4.0625rem;
+    font-weight: 550;
+}
+
+.drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+}
+
+.drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+}
+
+.drop-in-3 {
+    animation: drop-in 1400ms ease 800ms backwards;
+}
+
+.slide-in-1 {
+    animation: slide-in 1s ease 200ms backwards;
+}
+
+.slide-in-2 {
+    animation: slide-in 1200ms ease 500ms backwards;
+}
+
+.slide-in-3 {
+    animation: slide-in-2 1s ease 200ms backwards;
+}
+
+.slide-in-4 {
+    animation: slide-in-2 1200ms ease 500ms backwards;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes slide-in-2 {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+.sartor-card-left {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.sartor-card-left img {
+    width: 100%;
+}
+
+.sartor-card-right {
+    width: 50%;
+    height: 100%;
+}
+
+.sartor-margin {
+    margin-top: 100px !important;
+}
+
+.sartor-height {
+    object-fit: contain;
+}
+
+.footer {
+    color: white;
+}
+
+.footer .links ul {
+    list-style-type: none;
+}
+
+.footer .links li a {
+    color: white;
+    transition: color 0.2s;
+}
+
+.footer .links li a:hover {
+    text-decoration: none;
+    color: #4180CB;
+}
+
+.footer .about-company i {
+    font-size: 25px;
+}
+
+.footer .about-company a {
+    color: white;
+    transition: color 0.2s;
+}
+
+.footer .about-company a:hover {
+    color: #4180CB;
+}
+
+.footer .location i {
+    font-size: 18px;
+}
+
+.footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+@media (max-width: 840px) {
+    .sartor-head-txt{
+        font-size: 26px;
+    }
+
+    .sartor-head-txt-2{
+        font-size: 20px !important;
+        margin: 5px 0px !important;
+    }
+
+    .sartor-head-txt-3{
+        font-size: 15px !important;
+        margin: -55px 0px 0px 0px !important;
+    }
+
+    .sartor-head-txt-small{
+        font-size: 12px !important;
+        margin-top: -5px !important;
+    }
+
+    .sartor-btn{
+        font-size: 14px !important;
+        margin-top: 5px !important;
+    }
+
+    .sartor-none{
+        display: none !important;
+    }
+
+    .sartor-pad{
+        padding: 1px !important;
+    }
+
+    .sartor-margin{
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 430px) {
+    video, .sartor-img2{
+        margin-top: 70px;
+    }
+
+    .sartor-head-txt{
+        font-size: 22px;
+    }
+
+    .sartor-pad2{
+        padding: 0px !important;
+    }
+
+    .sartor-pad3{
+        padding: 10px !important;
+    }
+
+    .sartor-head-txt-2{
+        font-size: 14px !important;
+        margin: 5px 0px !important;
+    }
+
+    .sartor-none2{
+        display: none;
+    }
+
+    .sartor-sm-mb{
+        margin-bottom: 5px !important;
+    }
+}
