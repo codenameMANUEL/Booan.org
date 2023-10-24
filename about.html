@@ -1,229 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
-    <link rel="stylesheet" href="./CSS/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="">
-      <nav
-        class="navbar navbar-expand-lg sartor-bg-blue container-fluid position-fixed z-3 p-3"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              class="img-fluid sartor-logo me-4 slide-in-1"
-              src="./IMG/logo.webp"
-              alt=""
-          /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="./CSS/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg sartor-bg-blue container-fluid position-fixed z-3 p-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="img-fluid sartor-logo me-4 slide-in-1" src="./IMG/logo.jpg"
+          alt="" width="70" /></a>
+      <button class="navbar-toggler pkout" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/menu--v6.png" alt="menu--v6" />
+      </button>
+      <div class="collapse navbar-collapse " id="navbarScroll">
+        <ul
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll pt-2 fw-semibold slide-in-2 { animation: slide-in 1s ease 200ms backwards; }"
+          style="--bs-scroll-height: 100px">
+          <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link me-3" href="about.html">ABOUT </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link me-3" href="services.html">GALLERY</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link me-3" href="blog.html">GALLERY</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link" href="contact.html">CONTACT US</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
           <button
-            class="navbar-toggler pkout"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            class="btn fw-medium ms-4 sartor-bg-green sartor-txt-white sartor-consult slide-in-4"
+            type="submit"
           >
-            <img
-              width="40"
-              height="40"
-              src="https://img.icons8.com/ios-filled/50/menu--v6.png"
-              alt="menu--v6"
-            />
+            MAKE A DONATION
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul
-              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll pt-2 fw-semibold slide-in-2 { animation: slide-in 1s ease 200ms backwards; }"
-              style="--bs-scroll-height: 100px"
-            >
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link me-3" href="about.html"
-                  >ABOUT US</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link me-3" href="services.html"
-                  >OUR SERVICES</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link me-3" href="blog.html"
-                  >BLOGS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link" href="#"
-                  >RESEARCHES</a
-                >
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn" type="submit">
-                <a
-                  class="nav-link sartor-txt-white sartor-link fw-bolder slide-in-3"
-                  href="contact.html"
-                  >CONTACT US</a
-                >
-              </button>
-              <button
-                class="btn fw-medium ms-4 sartor-bg-green sartor-txt-white sartor-consult slide-in-4"
-                type="submit"
-              >
-                BOOK A CONSULTATION
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <div class="container-fluid p-0">
-        <div class="sartor-vid">
-          <img src="https://images.pexels.com/photos/6794925/pexels-photo-6794925.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="img-fluid sartor-img2">
-          <div class="sartor-overlay ms-lg-4 ms-sm-3 p-5 mt-5  mt-sm-0 sartor-pad2">
-            <h1
-              class="sartor-txt-white sartor-head drop-in sartor-head-txt"
-              style="font-family: 'Poppins'"
-            >
-              About Sartor Limited 
-            </h1>
-            <p class="sartor-txt-white fs-5 mt-4 drop-in-2 sartor-head-txt-small mb-0 sartor-none2">
-                Sartor Ltd is a management consulting firm incorporated in Nigeria with the CAC and was established to develop Africa’s industrial and services sector by providing management solutions to entrepreneurs.
-            </p>
-            <button
-              class="btn sartor-bg-transperent sartor-txt-white sartor-consult p-1 fs-4 drop-in-3 sartor-btn"
-            >
-            Strategy & Action
-            </button>
-          </div>
-        </div>
+        </form>
       </div>
-
-      <div class="container mt-5">
-        <div class="row text-center">
-            <div
-              class="col p-5 bg-white shadow m-2 mb-sm-3"
-              data-aos="fade-right"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" height="4em" style="text-align: center;" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 96a96 96 0 1 1 192 0A96 96 0 1 1 160 96zm80 152V512l-48.4-24.2c-20.9-10.4-43.5-17-66.8-19.3l-96-9.6C12.5 457.2 0 443.5 0 427V224c0-17.7 14.3-32 32-32H62.3c63.6 0 125.6 19.6 177.7 56zm32 264V248c52.1-36.4 114.1-56 177.7-56H480c17.7 0 32 14.3 32 32V427c0 16.4-12.5 30.2-28.8 31.8l-96 9.6c-23.2 2.3-45.9 8.9-66.8 19.3L272 512z"/></svg>
-              <h1 class="fw-bolder mt-3">4</h1>
-              <h2 class="fw-bold">
-                Researches
-              </h2>
-              
-            </div>
-            <div
-              class="col p-5 bg-white shadow m-2 mb-sm-3"
-              data-aos="zoom-in"
-            >
-            <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/></svg>
-            <h1 class="fw-bolder mt-3">6</h1>
-            <h2 class="fw-bold">
-             Services
-            </h2>
-            </div>
-            <div
-              class="col p-5 bg-white shadow m-2 mb-sm-3"
-              data-aos="fade-left"
-            >
-            <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>
-            <h1 class="fw-bolder mt-3">500+</h1>
-            <h2 class="fw-bold">
-              Happy Clients
-            </h2>
-            </div>
-          </div>
-      </div>
-
-      <div class="container-fluid bg-body-tertiary p-5 mt-5">
-        <div class="container p-5 mt-4 sartor-pad2">
-            <h4 data-aos="fade-up">ABOUT US</h4>
-            <h1 data-aos="fade-down" class="fw-bold fs-1">We're A Premium Management Consulting Firm</h1>
-            <p data-aos="fade-left" class="fs-5 mt-3">At Sartor, we focus on entrepreneurs, startups and MSMEs as these are the predominant drivers of the African economy, many of whom may lack access to funding or possess the skills necessary to launch, grow and lead their startups into successful businesses.</p>
-            <p data-aos="fade-right" class="fs-5 mt-3">We offer free online lectures, webinars, tools, links, and resources to help entrepreneurs launch, grow and lead their businesses into successful businesses.</p>
-            <p data-aos="fade-left" class="fs-5 mt-3">We also offer one-on-one virtual or in-person consulting services, retainers and mentorship programs to help entrepreneurs overcome challenges in running a startup.</p>
-            <p data-aos="fade-right" class="fs-5 mt-3">From business registration in Nigeria to business planning, product, service development, branding, marketing and developing an effective work culture we’ve got you covered.</p>
-            <p data-aos="fade-left" class="fs-5 mt-3">We understand that the business landscape is constantly evolving that’s why we study changes and advancements in technologies, policies and macroeconomy thereby helping us navigate the business landscape to our objectives.</p>
-            <p data-aos="fade-right" class="fs-5 mt-3">We identify your uniqueness to help us deliver tailored solutions to your needs.</p>
-            <p data-aos="fade-left" class="fs-5 mt-3">We don’t just give business advisory, we walk the walk with you.</p>
-        </div>
-      </div>
-
-      <div class="pt-5 pb-5 footer sartor-bg-blue">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5 col-xs-12 about-company">
-              <img data-aos="zoom-in" src="./IMG/logo.webp" alt="" class="sartor-logo2">
-              <h2 data-aos="fade-right" class="fw-bolder fs-1 mt-4 mb-4">Are You Ready To
-                Scale Your Business?</h2>
-              <button data-aos="fade-left" class="btn fw-medium sartor-bg-green sartor-txt-white sartor-consult slide-in-4 mb-3" type="submit"> BOOK A CONSULTATION</button>
-            </div>
-            <div data-aos="zoom-in" class="col-lg-3 col-xs-12 links">
-              <h4 class="mt-lg-0 mt-sm-3 fs-2 mb-3">Get In Touch</h4>
-              <ul class="m-0 p-0">
-                <li>
-                  <a
-                    href="#"
-                    class="sartor-txt-green fw-medium text-decoration-none"
-                    >info@sartor.ng</a
-                  >
-                </li>
-                <li class="mt-3 mb-3">
-                  <a href="#"><img class="me-3" src="https://img.icons8.com/?size=50&id=118467&format=png" alt=""><a href="#"><img src="https://img.icons8.com/?size=50&id=8808&format=png" alt=""></i></a></a>
-                </li>
-              </ul>
-            </div>
-            <div data-aos="zoom-in" class="col-lg-4 col-xs-12 location">
-              <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-              <p>No. 14 Jere Street Garki 2 FCT-Abuja</p>
-              <p class="mb-0">
-                <i class="fa fa-phone mr-3"></i>(234) 703-136-0993
-              </p>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col copyright">
-              <p class="">
-                <small class="text-white-50"
-                  >© 2023. All Rights Reserved.</small
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+    <div class="sartor-vid">
+      <img src="./IMG/free-photo-of-laughing-kids-on-street.jpeg" class="laughing-kids">
+      <div class="sartor-overlay ms-lg-4 ms-sm-3 p-5 mt-5  mt-sm-0 sartor-pad2">
+        <h1 class="sartor-txt-white sartor-head drop-in sartor-head-txt" style="font-family: 'Poppins'">
+          About
+        </h1>
+        <h1 class="sartor-txt-white sartor-head drop-in sartor-head-txt" style="font-family: 'Poppins'">
+          BENEVOLENT ORGANIZATION OF ALL NATIONS
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-body-tertiary p-5 mt-5">
+    <div class="container p-5 mt-4 sartor-pad2">
+      <h4 data-aos="fade-up">ABOUT US</h4>
+      <h1 data-aos="fade-down" class="fw-bold fs-1">BENEVOLENT ORGANIZATION OF ALL NATIONS</h1>
+      <p data-aos="fade-left" class="fs-5 mt-3">The BENEVOLENT ORGANIZATION OF ALL NATIONS
+        (BOOAN) is a non-profit, non-governmental organization
+        (NGO) committed dedicated to tackling some of the world's
+        most pressing challenges while fostering empowerment and
+        operating at the forefront of humanitarian and social
+        development services.</p>
+      <p data-aos="fade-right" class="fs-5 mt-3">BOOAN engages distinctive systems applications to drive
+        policies, strategies and solutions with servicing capabilities
+        ahead of the curve in collaboration within an extensive
+        network to leverage resources, expertise, and collective
+        action.
+      </p>
+      <p data-aos="fade-left" class="fs-5 mt-3">Operating in sync with international standards of
+        performance and accountability, prioritizing unique needs,
+        streamlining resources, and driving balanced stewardship
+        within the ever-evolving global landscape is at the heart of
+        the BOOAN endeavor.
+      </p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row text-center">
+      <div class="col p-5 bg-white shadow m-2 mb-sm-3" data-aos="fade-right">
+        <h1 class="fw-bolder mt-3 text-primary">MISSION</h1>
+        <p class="fw-bold">
+          BOOAN upholds the Mission of creating a high-performance organization with the most effective strategies and
+          pool of resources to enhance local and international development collaborations towards executing sustainable
+          and comprehensive development initiatives.</p>
+      </div>
+      <div class="col p-5 bg-white shadow m-2 mb-sm-3" data-aos="zoom-in">
+        <h1 class="fw-bolder mt-3 text-primary">VISION</h1>
+        <p class="fw-bold">
+          BOOAN envisions a world sustainably fit to provide the
+          decency of being for all creatures.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-body-tertiary p-5 mt-5">
+    <div class="container p-5 mt-4 sartor-pad2">
+      <h1 data-aos="fade-down" class="fw-bold fs-1">Purpose and Core Values</h1>
+      <p data-aos="fade-left" class="fs-5 mt-3">BOOAN is committed to a working culture driven on the principles of
+        social
+        justice and balance, empowerment and equity, efficiency and sustainability,
+        inclusion and collaborations.</p>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row text-center">
+      <div class="col p-5 bg-white shadow m-2 mb-sm-3" data-aos="fade-right">
+        <h1 class="fw-bolder mt-3 text-primary">Love</h1>
+        <p class="fw-bold">Empathizing with and recognizing the inherent dignity of every person in attaining a better
+          life.</p>
+      </div>
+      <div class="col p-5 bg-white shadow m-2 mb-sm-3" data-aos="zoom-in">
+        <h1 class="fw-bolder mt-3 text-primary">Value</h1>
+        <p class="fw-bold">
+          Empowering people and communities to create value for a better thriving world.
+        </p>
+      </div>
+      <div class="col p-5 bg-white shadow m-2 mb-sm-3" data-aos="fade-right">
+        <h1 class="fw-bolder mt-3 text-primary">Sustainability<h1>
+            <p class="fw-bold fs-6">
+              Striving for inclusion, promoting diversity and equality, transparency,
+              integrity, and accountability, as well as fair and ethical relationships with our stakeholders towards
+              realizing lasting legacy.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-body-tertiary p-5 mt-5">
+    <div class="container p-5 mt-4 sartor-pad2">
+      <h6 data-aos="fade-down" class="fw-bold fs-6">Strategic Goals of</h6>
+      <h1 data-aos="fade-down" class="fw-bold fs-1">BENEVOLENT ORGANIZATION OF ALL NATIONS</h1>
+      <ul data-aos="fade-left" class="fs-5 mt-3">
+        <li>To render humanitarian and charitable support to the less privileged and vulnerable in society</li>
+        <li>To promote social welfare and security and the general wellbeing of all creatures</li>
+        <li>To enhance all-round socio-cultural, political and economic empowerment</li>
+        <li>To help pool stakeholders and resources towards the fulfillment of developmental outcomes</li>
+        <li>The build the capacity of development interests</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-body-tertiary p-5 mt-5">
+    <div class="container p-5 mt-4 sartor-pad2">
+      <h6 data-aos="fade-down" class="fw-bold fs-6">Strategic Areas of Focus</h6>
+      <h1 data-aos="fade-down" class="fw-bold fs-4">Social Welfare
+        and Development</h1>
+      <p data-aos="fade-up" class="fw-light fs-6">Revolving around improving the well-being, quality of life, and
+        overall development of individuals and communities, particularly those facing socio-economic challenges</p>
+      <ul data-aos="fade-left" class="fs-6 mt-3">
+        <li><span class="fw-bold fs-5">Education:</span> driving education as a powerful tool for social transformation
+          towards while helping to increase access to quality education and promoting lifelong learning opportunities.
+        </li>
+        <li><span class="fw-bold fs-5">Healthcare Access:</span> working to improve healthcare infrastructure, provide
+          medical support services, and raise awareness about health issues, ensuring that communities have the care
+          they need.</li>
+        <li><span class="fw-bold fs-5">Poverty Alleviation:</span> implementing sustainable poverty alleviation programs
+          that empower
+          individuals with income-generating skills, microfinance initiatives, and livelihood support.</li>
+        <li><span class="fw-bold fs-5">Gender Equality:</span> advancing gender equality and women's empowerment while
+          helping to
+          combat gender-based violence, promote women's rights, and create opportunities for women in
+          education and the workforce.</li>
+        <li><span class="fw-bold fs-5">Community Development:</span> engaging with communities to identify their unique
+          needs and
+          aspirations while fostering a sense of ownership and self-reliance.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-body-tertiary p-5 mt-5">
+    <div class="container p-5 mt-4 sartor-pad2">
+      <h1 data-aos="fade-down" class="fw-bold fs-4">Economic Growth
+        and Development</h1>
+      <p data-aos="fade-up" class="fw-light fs-6">Create opportunities for individuals and communities to break the
+        cycle of poverty, achieve financial independence, and contribute to their economies.</p>
+      <ul data-aos="fade-left" class="fs-6 mt-3">
+        <li><span class="fw-bold fs-5">Entrepreneurship Development:</span> Providing support services and fostering
+          local enterprises to
+          drive economic growth.
+        </li>
+        <li><span class="fw-bold fs-5">Training and Capacity Building:</span>Training and development of individuals and
+          communities for
+          empowerment.</li>
+        <li><span class="fw-bold fs-5">Financial Literacy:</span> Carrying out workshops and facilitating resources to
+          teach individuals,
+          households and communities about budgeting, savings, and investments.</li>
+        <li><span class="fw-bold fs-5">Access to Markets:</span>Facilitating access to markets for local products and
+          crafts to boost income,
+          promote cultural preservation and sustainable practices.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-body-tertiary p-5 mt-5">
+    <div class="container p-5 mt-4 sartor-pad2">
+      <h1 data-aos="fade-down" class="fw-bold fs-4">Natural Resource
+        Conservation and Management</h1>
+      <p data-aos="fade-up" class="fw-light fs-6">Conservation of natural resources while driving sustainable development and supporting the role that the environment plays in well-being of present and future generations.</p>
+      <ul data-aos="fade-left" class="fs-6 mt-3">
+        <li><span class="fw-bold fs-5">Sustainable Agriculture:</span> : Promoting sustainable farming practices that reduce environmental
+          impact, conserve soil and water, and increase crop yields towards ensuring food security and
+          preservation of natural resources.
+        </li>
+        <li><span class="fw-bold fs-5">Renewable Energy:</span>Facilitating transitioning to renewable energy sources while helping to reduce reliance on fossil fuels and mitigating climate change.</li>
+        <li><span class="fw-bold fs-5">Biodiversity Conservation:</span> Protecting biodiversity for ecological balance involving
+          reforestation efforts, habitat restoration, and wildlife conservation.<li>
+        <li><span class="fw-bold fs-5">Environmental and Disaster Management:</span>Advancing environmental management and helping to provide emergency and disaster management support services.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pt-5 pb-5 footer sartor-bg-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company">
+          <img data-aos="zoom-in" src="./IMG/logo.jpg" alt="" class="sartor-logo2" width="100">
+          <h2 data-aos="fade-right" class="fw-bolder fs-4 mt-4 mb-4">Humanitarian, Social and Development Services?</h2>
+        </div>
+        <div data-aos="zoom-in" class="col-lg-3 col-xs-12 links">
+          <h6 class="mt-lg-0 mt-sm-3 fs-5 mb-3">Get In Touch</h6>
+          <ul class="m-0 p-0">
+            <li>
+              <a href="#" class="sartor-txt-green fw-medium text-decoration-none">info@booan.org</a>
+            </li>
+            <li>
+              <a href="#" class="sartor-txt-green fw-medium text-decoration-none">ngobooan@yahoo.com</a>
+            </li>
+            <li>
+              <a href="#" class="sartor-txt-green fw-medium text-decoration-none">benevolentpresident@booan.org</a>
+            </li>
+            <li>
+              <a href="#" class="sartor-txt-green fw-medium text-decoration-none">admin@booan.org</a>
+            </li>
+            <li>
+              <a href="#" class="sartor-txt-green fw-medium text-decoration-none">www.booan.org</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+        <div data-aos="zoom-in" class="col-lg-4 col-xs-12 location">
+          <h4 class="mt-lg-0 mt-sm-4 fs-5">Central Representation</h4>
+          <p>No 24, Yakubu Gowon Way, Asokoro, Abuja, Federal Capital Territory, Abuja</p>
+          <p class="mb-0">
+            <i class="fa fa-phone mr-3"></i>+234 (0)70 4415 1270
+          </p>
+          <p class="mb-0">
+            <i class="fa fa-phone mr-3"></i> +234 (0)81 2260 3479
+          </p>
+          <p class="mb-0">
+            <i class="fa fa-phone mr-3"></i> +234 (0)81 3160 6150
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col copyright">
+          <p class="">
+            <small class="text-white-50">© 2023. All Rights Reserved.</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
 
 
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="./JS/app.js"></script>
-    <script src="./JS/bootstrap.bundle.min.js"></script>
-  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./JS/app.js"></script>
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

@@ -182,6 +182,10 @@ video, .sartor-img2 {
     object-fit: contain;
 }
 
+.laughing-kids{
+    width: 100%;
+}
+
 .footer {
     color: white;
 }
@@ -257,6 +261,10 @@ video, .sartor-img2 {
 
     .sartor-margin{
         margin: 0px !important;
+    }
+
+    .footer{
+        text-align: center !important;
     }
 }
 

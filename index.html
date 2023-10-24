@@ -1,457 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
-    <link rel="stylesheet" href="./CSS/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="">
-      <nav
-        class="navbar navbar-expand-lg sartor-bg-blue container-fluid position-fixed z-3 p-3"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              class="img-fluid sartor-logo me-4 slide-in-1"
-              src="./IMG/logo.webp"
-              alt=""
-          /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="./CSS/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sartor-bg-blue container-fluid position-fixed z-3 p-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="img-fluid sartor-logo me-4 slide-in-1" src="./IMG/logo.jpg"
+          alt="" width="70" /></a>
+      <button class="navbar-toggler pkout" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/menu--v6.png" alt="menu--v6" />
+      </button>
+      <div class="collapse navbar-collapse " id="navbarScroll">
+        <ul
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll pt-2 fw-semibold slide-in-2 { animation: slide-in 1s ease 200ms backwards; }"
+          style="--bs-scroll-height: 100px">
+          <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link me-3" href="about.html">ABOUT </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link me-3" href="services.html">GALLERY</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link me-3" href="blog.html">GALLERY</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link sartor-txt-white sartor-link" href="contact.html">CONTACT US</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
           <button
-            class="navbar-toggler pkout"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            class="btn fw-medium ms-4 sartor-bg-green sartor-txt-white sartor-consult slide-in-4"
+            type="submit"
+            
           >
-            <img
-              width="40"
-              height="40"
-              src="https://img.icons8.com/ios-filled/50/menu--v6.png"
-              alt="menu--v6"
-            />
+            MAKE A DONATION
           </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul
-              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll pt-2 fw-semibold slide-in-2 { animation: slide-in 1s ease 200ms backwards; }"
-              style="--bs-scroll-height: 100px"
-            >
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link me-3" href="about.html"
-                  >ABOUT US</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link me-3" href="services.html"
-                  >OUR SERVICES</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link me-3" href="blog.html"
-                  >BLOGS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link sartor-txt-white sartor-link" href="#"
-                  >RESEARCHES</a
-                >
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button class="btn" type="submit">
-                <a
-                  class="nav-link sartor-txt-white sartor-link fw-bolder slide-in-3"
-                  href="contact.html"
-                  >CONTACT US</a
-                >
-              </button>
-              <button
-                class="btn fw-medium ms-4 sartor-bg-green sartor-txt-white sartor-consult slide-in-4"
-                type="submit"
-              >
-                BOOK A CONSULTATION
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <div class="container-fluid p-0 ">
-        <div class="sartor-vid">
-          <video src="./IMG/sartor-video.mp4" autoplay loop></video>
-          <div class="sartor-overlay ms-lg-4 ms-sm-3 p-5 mt-5 mt-sm-0 sartor-pad2">
-            <h1
-              class="sartor-txt-white sartor-head drop-in sartor-head-txt"
-              style="font-family: 'Poppins'"
-            >
-              Managing Consulting <br />
-              at it's Finest
-            </h1>
-            <p class="sartor-txt-white fs-5 mt-4 drop-in-2 sartor-head-txt-small mb-0 sartor-none2">
-              At Sartor, we focus on entrepreneurs, startups within micro small
-              and medium enterprises as these are the predominant drivers of the
-              African economy, <br />
-              many of whom may lack access to funding or possess the skills
-              necessary to launch, grow and lead their startups into successful
-              businesses.
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container-fluid p-0 ">
+    <div class="sartor-vid">
+      <video src="IMG/1784540970.mp4"></video>
+      <div class="sartor-overlay ms-lg-4 ms-sm-3 p-5 mt-5 mt-sm-0 sartor-pad2">
+        <h1 class="sartor-txt-white sartor-head drop-in sartor-head-txt" style="font-family: 'Poppins'">
+          LOVE,
+        </h1>
+        <h1 class="sartor-txt-white sartor-head drop-in sartor-head-txt" style="font-family: 'Poppins'">
+          VALUE,
+        </h1>
+        <h1 class="sartor-txt-white sartor-head drop-in sartor-head-txt" style="font-family: 'Poppins'">
+          "EXCELLENCE"
+        </h1>
+        <p class="sartor-txt-white fs-5 mt-4 drop-in-2 sartor-head-txt-small mb-0 sartor-none2">
+          We are a dynamic humanitarian and social services organization with an extensive network committed to
+          providing the invaluable support in tackling socio-cultural and economic challenges.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-body-tertiary p-5 mt-5">
+    <div class="container p-5 mt-4 sartor-pad2">
+      <h1 data-aos="fade-down" class="fw-bold fs-1">BENEVOLENT ORGANIZATION OF ALL NATIONS</h1>
+      <p data-aos="fade-left" class="fs-5 mt-3">The world faces a myriad of challenges hinged on socio-cultural and
+        economic imbalances.Poverty, hunger and malnutrition, disasters, illiteracy, conflict and violence,
+        environmental
+        degradation, and other abounding critical social and economic problems require a genuine graspn of humanity to
+        tackle.</p>
+      <p data-aos="fade-right" class="fs-5 mt-3">In reckoning with intensifying globalization, the dynamism of
+        character, the rapidity of change,
+        the abounding uncertainties, and the gross inequities, there is a distinctive need for advancing
+        truly sustainable solutions to improve life to the fullest compass.</p>
+      <p data-aos="fade-left" class="fs-5 mt-3">BOOAN leverages specialized applications, strategic partnerships, and a
+        network of global
+        resources to drive efforts bringing about positive change, empowering communities, and
+        creating a more equitable and hopeful future for all.
+      </p>
+      <p data-aos="fade-left" class="fs-6 mt-3">…Empowering hope and lives towards a happier world!</p>
+    </div>
+  </div>
+
+  
+    <div class="container-fluid bg-body-tertiary p-5 sartor-pad3">
+      <h3 class="text-center fs-1 mb-3 sartor-head-txt" data-aos="fade-up">The Operating Core</h3>
+      <p class="text-start fs-5 mb-5 sartor-head-txt-2" data-aos="fade-down">The Benevolent Organization of All Nations
+        adopts an operational flow designed to ensure a systematic
+        approach to addressing unique needs and objectives</p>
+      <p class="text-start fs-5 mb-5 sartor-head-txt-2" data-aos="fade-down">In implementing an efficient operational
+        flow, the organization drives optimal resource utilization, minimize slacks, enhance the critical path, and
+        ensure effective delivery of sustainable services.</p>
+
+
+      <div class="container mt-5">
+        <div class="row text-center">
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="fade-right">
+            <p class="fw-bold">Proactive engagement,
+              Scheduling and Project
+              Initiation
             </p>
-            <button
-              class="btn sartor-bg-transperent sartor-txt-white sartor-consult p-1 fs-4 drop-in-3 sartor-btn"
-            >
-              KNOW MORE
-            </button>
+          </div>
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="zoom-in">
+            <p class="fw-bold">Operation and
+              Maintenance
+            </p>
+          </div>
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="fade-right">
+            <p class="fw-bold fs-6">Responsive Sustainable
+              Design and Planning
+            </p>
+          </div>
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="fade-right">
+            <p class="fw-bold fs-6">Monitoring and
+              Evaluation
+            </p>
+          </div>
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="fade-right">
+            <p class="fw-bold fs-6">Resourcing
+              engagement and
+              mobilizations</p>
+          </div>
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="fade-right">
+            <p class="fw-bold fs-6">Impact and
+              Sustainability
+              Management</p>
+          </div>
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="fade-right">
+            <p class="fw-bold fs-6">Implementation </p>
+          </div>
+          <div class="col p-5 bg-primary text-light shadow m-2 mb-sm-3" data-aos="fade-right">
+            <p class="fw-bold fs-6">Stakeholder
+              Management </p>
           </div>
         </div>
       </div>
-      <div class="">
-        <div class="card mb-5 border-0 p-5 mt-5 sartor-pad3">
-          <div class="row g-0">
-            <div class="col-14 col-md-7" data-aos="fade-right">
-              <img
-                src="./IMG/img1.webp"
-                class="img-fluid rounded-start sartor-img object-fit-cover slide-in-1"
-                alt="..."
-              />
-            </div>
-            <div class="col-10 col-md-5 m-md-0">
-              <div class="card-body mt-5 " data-aos="fade-left">
-                <p class="card-text mb-md-0 sartor-head-txt-3">
-                  <small class="fs-4 fw-bold sartor-head-txt-3">--ABOUT US--</small>
-                </p>
-                <h5 class="card-title mt-4 mb-4 fs-1 sartor-head-txt-2">
-                  We're A Premium Management Consulting Firm
-                </h5>
-                <p class="card-text fs-5 sartor-head-txt-small">
-                  Sartor Ltd is a management consulting firm incorporated in
-                  Nigeria to develop Africa’s industrial and services sector by
-                  providing management solutions to entrepreneurs in
-                  healthcare/pharmaceutical, agriculture and fast moving
-                  consumer goods (FMCG) manufacturing, processing and
-                  distribution segments.
-                </p>
-                <p class="card-text fs-5 sartor-head-txt-small sartor-none">
-                  Our focus is to develop and promote MSMEs in Africa as these
-                  will be the predominant drivers of growth and development in
-                  the African economy.
-                </p>
-                <p class="card-text fs-5 sartor-head-txt-small sartor-none">
-                  We equip our clients with the skills and expertise necessary
-                  to launch, grow and lead a successful business.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid bg-body-tertiary p-5 sartor-pad3">
-          <h3 class="text-center fs-1 mb-3 sartor-head-txt" data-aos="fade-up">Our Services</h3>
-          <p class="text-center fs-5 mb-5 sartor-head-txt-2" data-aos="fade-down">
-            We offer a wide range of client services to achieve your business
-            objectives.
-          </p>
-          <div class="container sartor-pad3">
-            <div class="row ">
-              <div
-                class="col p-5 bg-white shadow me-4 mb-sm-3 sartor-sm-mb"
-                data-aos="fade-right"
-              >
-                <h2>Startup A Business</h2>
-                <p>Don’t know where or how to start?</p>
-                <p>
-                  From business registration to business plan to launch, we have
-                  got you covered.
-                </p>
-                <a href="" class="nav-link fw-bold sartor-txt-blue"
-                  >START HERE &rarr;</a
-                >
-              </div>
-              <div
-                class="col p-5 bg-white shadow me-4 mb-sm-3 sartor-sm-mb"
-                data-aos="zoom-in"
-              >
-                <h2>Build A Brand</h2>
-                <p>Be found and build loyal customers.</p>
-                <p>
-                  Become unique, identifiable, consistent and stand out from
-                  your competitor.
-                </p>
-                <a href="" class="nav-link fw-bold sartor-txt-blue"
-                  >GET A BRAND AUDIT &rarr;</a
-                >
-              </div>
-              <div
-                class="col p-5 bg-white shadow me-4 mb-sm-3 sartor-sm-mb"
-                data-aos="fade-left"
-              >
-                <h2>Grow Your Business</h2>
-                <p>Become efficient. Find new opportunities.</p>
-                <p>
-                  Get the right customers or partners through our business
-                  development program.
-                </p>
-                <a href="" class="nav-link fw-bold sartor-txt-blue"
-                  >SIGN UP &rarr;</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
 
-        <div class="container-fluid sartor-bg-blue p-5 sartor-pad3">
-          <div class="container">
-            <h3
-              class="text-center fs-4 mb-3 sartor-txt-white"
-              data-aos="fade-up"
-            >
-              WHY CHOOSE US
-            </h3>
-            <h1
-              class="text-center fs-1 mb-3 fw-bold sartor-txt-white"
-              data-aos="fade-left"
-            >
-              We Walk The Walk With You
-            </h1>
-            <p
-              class="text-center fs-5 mb-5 sartor-txt-ash sartor-head-txt-2"
-              data-aos="fade-down"
-            >
-              Our team is equipped with the right amount of expertise and
-              experience to help you achieve your corporate goals. You can be
-              sure that you are in competent hands.
+    <div class="container-fluid sartor-bg-blue p-5 sartor-pad3">
+      <div class="container">
+        <h3 class="text-start fs-4 mb-3 sartor-txt-white" data-aos="fade-up">
+          Organization and Management
+        </h3>
+        <p class="text-start fs-5 mb-5 sartor-txt-ash sartor-head-txt-2" data-aos="fade-down">
+          The Benevolent Organization of All Nations (BOOAN) is organized functionally and flexibly into a superbly
+          blended centralized and Matrix-based organization with independent project formations;
+        </p>
+        <p class="text-start fs-5 mb-5 sartor-txt-ash sartor-head-txt-2" data-aos="fade-down">
+          The organization is driven by forward-looking, highly passionate and result-oriented technical and development
+          professionals with over 25 years of combined experience in Project Management, Social and Welfare Services,
+          Financial and Resourcing Management, Training and Capacity Building, Public Service, Policy and Advocacy, and
+          Crisis Management and Disaster Response.
+
+        </p>
+        <div class="row text-center" data-aos="fade-right">
+          <div class="col p-5 mb-sm-5 me-md-1 bg-white mb-3">
+            <p>Network Organization </p>
+          </div>
+          <div class="col p-5 mb-sm-5 bg-white mb-3">
+            <p>Standardized Delivery Pathways and Protocols </p>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-left">
+          <div class="col p-5 mb-sm-5 me-md-1 bg-white mb-3">
+            <p>Interdisciplinary Project
+              Teams with Progressive
+              Team Leaders
             </p>
-            <div class="row text-center" data-aos="fade-right">
-              <div class="col p-5 mb-sm-5 me-md-1 bg-white mb-3">
-                <h2>Innovative</h2>
-                <p>
-                  We are continuously developing innovative ideas and strategies
-                  to adapt to the dynamic global and local business landscape.
-                </p>
-              </div>
-              <div class="col p-5 mb-sm-5 bg-white mb-3">
-                <h2>Experienced Team</h2>
-                <p>
-                  Our team of strategist with industry knowledge are here to
-                  help you achieve your desired goals.
-                </p>
-              </div>
-            </div>
-            <div class="row" data-aos="fade-left">
-              <div class="col p-5 mb-sm-5 me-md-1 bg-white mb-3">
-                <h2>Client-Focused</h2>
-                <p>
-                  Every business is unique and so we deliver you with tailored
-                  solutions. We don't just give business advisory, we walk the
-                  walk with you.
-                </p>
-              </div>
-              <div class="col p-5 mb-sm-5 bg-white mb-3">
-                <h2>Value-Oriented</h2>
-                <p>
-                  We offer free educational resources that helps entrepreneurs
-                  launch, grow and lead successful businesses.
-                </p>
-              </div>
-            </div>
+          </div>
+          <div class="col p-5 mb-sm-5 bg-white mb-3">
+            <p>Integrated Value Systemsy</p>
           </div>
         </div>
+        <div class="p-5 mb-sm-5 bg-white mb-3">
+          <p>Supportive Collaborations
+            with Inclusive Stakeholder
+            Management Functionality</p>
+        </div>
+      </div>
+    </div>
 
-        <div
-          class="card mb-5 border-0 p-5 sartor-card-container bg-body-tertiary sartor-none2"
-        >
-          <div class="row g-0">
-            <div class="col-14 col-md-7 sartor-card-left" data-aos="fade-right">
+    <!-- <div class="card mb-5 border-0 p-5 sartor-card-container bg-body-tertiary sartor-none2">
+      <div class="row g-0">
+        <div class="col-14 col-md-7 sartor-card-left" data-aos="fade-right">
+          <img src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            class="img-fluid rounded-start sartor-img slide-in-1" alt="..." />
+        </div>
+        <div class="col-10 col-md-5 sartor-card-right p-lg-5">
+          <div class="card-body sartor-margin" data-aos="fade-left">
+            <h5 class="card-title mb-4 fs-1 sartor-head-txt-2">
+              Get Insights & Dial Into Your Market To Acheive Success
+            </h5>
+            <p class="card-text fs-5 sartor-head-txt-small">
+              We understand that the business landscape is constantly
+              evolving that’s why we study changes and advancements in
+              technologies, policies and macro-economy to enable us to
+              navigate the business landscape to achieve our objectives.
+            </p>
+            <p class="card-text fs-5 sartor-none">
+              We identify your uniqueness to deliver tailored solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+    <!-- <div class="card mb-5 border-0 p-5 sartor-none2">
+      <div class="row g-0">
+        <div class="col-10 col-md-5">
+          <div class="card-body mt-5 sartor-margin p-5 sartor-pad" data-aos="fade-right">
+            <h5 class="card-title mt-4 mb-4 fs-1 sartor-head-txt-2 mt-sm-0">
+              Our Consultants Can Make The Difference Your Business Needs.
+            </h5>
+            <p class="card-text fs-5 sartor-head-txt-small">
+              As an entrepreneur you may feel stuck, you may not know or be
+              able to do everything.
+            </p>
+            <p class="card-text fs-5 sartor-head-txt-small">
+              Valuable advise and insights into your business may just be
+              all you need.
+            </p>
+            <button class="btn sartor-talk p-2 text-white fs-5 fw-bold">
+              LET'S TALK
+            </button>
+          </div>
+        </div>
+        <div class="col-14 col-md-7" data-aos="fade-left">
+          <img src="./IMG/img3.webp" class="img-fluid rounded-start sartor-img object-fit-cover slide-in-1" alt="..." />
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container-fluid bg-body-tertiary p-5 sartor-pad2">
+      <div class="container p-5">
+        <div data-aos="zoom-in">
+          <h2 class="fs-1 mb-3">Prime Stakeholders</h2>
+          <ul class="list-unstyled fs-5 fw-light">
+            <li>Government and Public Sector</li>
+            <li>Individuals, Families, and Households</li>
+            <li>Communities</li>
+            <li>Corporations and the Private Sector</li>
+            <li>Institutions and Commissions</li>
+            <li>Non-profit Organizations and NGOs</li>
+            <li>Development Agencies</li>
+          </ul>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card border-0 shadow" data-aos="fade-down-right">
               <img
-                src="https://images.pexels.com/photos/313691/pexels-photo-313691.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                class="img-fluid rounded-start sartor-img slide-in-1"
-                alt="..."
-              />
-            </div>
-            <div class="col-10 col-md-5 sartor-card-right p-lg-5">
-              <div class="card-body sartor-margin" data-aos="fade-left">
-                <h5 class="card-title mb-4 fs-1 sartor-head-txt-2">
-                  Get Insights & Dial Into Your Market To Acheive Success
-                </h5>
-                <p class="card-text fs-5 sartor-head-txt-small">
-                  We understand that the business landscape is constantly
-                  evolving that’s why we study changes and advancements in
-                  technologies, policies and macro-economy to enable us to
-                  navigate the business landscape to achieve our objectives.
-                </p>
-                <p class="card-text fs-5 sartor-none">
-                  We identify your uniqueness to deliver tailored solutions.
-                </p>
-              </div>
+                src="./IMG/Patners_one.png"
+                class="card-img-top sartor-height" alt="..." />
             </div>
           </div>
-        </div>
-
-        <div class="card mb-5 border-0 p-5 sartor-none2">
-          <div class="row g-0">
-            <div class="col-10 col-md-5">
-              <div
-                class="card-body mt-5 sartor-margin p-5 sartor-pad"
-                data-aos="fade-right"
-              >
-                <h5 class="card-title mt-4 mb-4 fs-1 sartor-head-txt-2 mt-sm-0">
-                  Our Consultants Can Make The Difference Your Business Needs.
-                </h5>
-                <p class="card-text fs-5 sartor-head-txt-small">
-                  As an entrepreneur you may feel stuck, you may not know or be
-                  able to do everything.
-                </p>
-                <p class="card-text fs-5 sartor-head-txt-small">
-                  Valuable advise and insights into your business may just be
-                  all you need.
-                </p>
-                <button class="btn sartor-talk p-2 text-white fs-5 fw-bold">
-                  LET'S TALK
-                </button>
-              </div>
-            </div>
-            <div class="col-14 col-md-7" data-aos="fade-left">
+          <div class="col">
+            <div class="card border-0 shadow" data-aos="fade-down-left">
               <img
-                src="./IMG/img3.webp"
-                class="img-fluid rounded-start sartor-img object-fit-cover slide-in-1"
-                alt="..."
-              />
+                src="./IMG/patners-two.png"
+                class="card-img-top" alt="..." />
             </div>
           </div>
-        </div>
-
-        <div class="container-fluid bg-body-tertiary p-5 sartor-pad2">
-          <div class="container p-5">
-            <div class="text-center pb-3" data-aos="zoom-in">
-              <h4 class="fs-5">INSIGHTS</h4>
-              <h2 class="fs-1 mb-3">Latest Articles</h2>
-              <p>
-                Get informative and enlightening articles to help you grow your
-                business today
-              </p>
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <div class="card border-0 shadow" data-aos="fade-down-right">
-                  <img
-                    src="https://images.pexels.com/photos/4491918/pexels-photo-4491918.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                    class="card-img-top sartor-height"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      How to Start a Business in Nigeria: A Step-by-Step
-                      Guide-PART 1
-                    </h5>
-                    <p class="small">November 1, 2022</p>
-                    <p class="card-text">
-                      Do you want to start a business in Nigeria? Discover where
-                      to start and how to achieve success.
-                    </p>
-                    <a
-                      href=""
-                      class="link text-decoration-none fw-medium sartor-txt-green"
-                      >Read More »</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card border-0 shadow" data-aos="fade-down-left">
-                  <img
-                    src="https://images.pexels.com/photos/4238488/pexels-photo-4238488.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      How to Start a Business in Nigeria: A Step-by-Step
-                      Guide-PART 2
-                    </h5>
-                    <p class="small">November 28, 2022</p>
-                    <p class="card-text">
-                      This part deals with choosing a suitable banking partner,
-                      raising capital, accounting or bookkeeping.
-                    </p>
-                    <a
-                      href=""
-                      class="link text-decoration-none fw-medium sartor-txt-green"
-                      >Read More »</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pt-5 pb-5 footer sartor-bg-blue">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-5 col-xs-12 about-company">
-                <img data-aos="zoom-in" src="./IMG/logo.webp" alt="" class="sartor-logo2">
-                <h2 data-aos="fade-right" class="fw-bolder fs-1 mt-4 mb-4">Are You Ready To
-                  Scale Your Business?</h2>
-                <button data-aos="fade-left" class="btn fw-medium sartor-bg-green sartor-txt-white sartor-consult slide-in-4 mb-3" type="submit"> BOOK A CONSULTATION</button>
-              </div>
-              <div data-aos="zoom-in" class="col-lg-3 col-xs-12 links">
-                <h4 class="mt-lg-0 mt-sm-3 fs-2 mb-3">Get In Touch</h4>
-                <ul class="m-0 p-0">
-                  <li>
-                    <a
-                      href="#"
-                      class="sartor-txt-green fw-medium text-decoration-none"
-                      >info@sartor.ng</a
-                    >
-                  </li>
-                  <li class="mt-3 mb-3">
-                    <a href="#"><img class="me-3" src="https://img.icons8.com/?size=50&id=118467&format=png" alt=""><a href="#"><img src="https://img.icons8.com/?size=50&id=8808&format=png" alt=""></i></a></a>
-                  </li>
-                </ul>
-              </div>
-              <div data-aos="zoom-in" class="col-lg-4 col-xs-12 location">
-                <h4 class="mt-lg-0 mt-sm-4">Location</h4>
-                <p>No. 14 Jere Street Garki 2 FCT-Abuja</p>
-                <p class="mb-0">
-                  <i class="fa fa-phone mr-3"></i>(234) 703-136-0993
-                </p>
-              </div>
-            </div>
-            <div class="row mt-5">
-              <div class="col copyright">
-                <p class="">
-                  <small class="text-white-50"
-                    >© 2023. All Rights Reserved.</small
-                  >
-                </p>
-              </div>
+          <div class="col">
+            <div class="card border-0 shadow" data-aos="fade-down-left">
+              <img
+                src="./IMG/patners-three.png"
+                class="card-img-top" alt="..." />
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="./JS/app.js"></script>
-    <script src="./JS/bootstrap.bundle.min.js"></script>
-  </body>
+    <div class="pt-5 pb-5 footer sartor-bg-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12 about-company">
+            <img data-aos="zoom-in" src="./IMG/logo.jpg" alt="" class="sartor-logo2" width="100">
+            <h2 data-aos="fade-right" class="fw-bolder fs-4 mt-4 mb-4">Humanitarian, Social and Development Services?
+            </h2>
+          </div>
+          <div data-aos="zoom-in" class="col-lg-3 col-xs-12 links">
+            <h6 class="mt-lg-0 mt-sm-3 fs-5 mb-3">Get In Touch</h6>
+            <ul class="m-0 p-0">
+              <li>
+                <a href="#" class="sartor-txt-green fw-medium text-decoration-none">info@booan.org</a>
+              </li>
+              <li>
+                <a href="#" class="sartor-txt-green fw-medium text-decoration-none">ngobooan@yahoo.com</a>
+              </li>
+              <li>
+                <a href="#" class="sartor-txt-green fw-medium text-decoration-none">benevolentpresident@booan.org</a>
+              </li>
+              <li>
+                <a href="#" class="sartor-txt-green fw-medium text-decoration-none">admin@booan.org</a>
+              </li>
+              <li>
+                <a href="#" class="sartor-txt-green fw-medium text-decoration-none">www.booan.org</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+          <div data-aos="zoom-in" class="col-lg-4 col-xs-12 location">
+            <h4 class="mt-lg-0 mt-sm-4 fs-5">Central Representation</h4>
+            <p>No 24, Yakubu Gowon Way, Asokoro, Abuja, Federal Capital Territory, Abuja</p>
+            <p class="mb-0">
+              <i class="fa fa-phone mr-3"></i>+234 (0)70 4415 1270
+            </p>
+            <p class="mb-0">
+              <i class="fa fa-phone mr-3"></i> +234 (0)81 2260 3479
+            </p>
+            <p class="mb-0">
+              <i class="fa fa-phone mr-3"></i> +234 (0)81 3160 6150
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col copyright">
+            <p class="">
+              <small class="text-white-50">© 2023. All Rights Reserved.</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./JS/app.js"></script>
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
